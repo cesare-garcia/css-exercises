@@ -12,5 +12,8 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
