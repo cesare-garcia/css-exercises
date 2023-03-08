@@ -29,7 +29,7 @@
   justify-self: start;
 }
 
-.menu>ul {
+.menu > ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -45,7 +45,7 @@
 }
 
 .sidebar {
-  background-color: #FF7755;
+  background-color: #ff7755;
   grid-column: 1/2;
   display: grid;
   gap: 50px 50px;
@@ -62,7 +62,6 @@
   align-items: center;
 }
 
-
 .sidebar .side-content {
   background-color: white;
   color: black;
@@ -73,10 +72,10 @@
 }
 
 .nav {
-  background-color: #FF7755;
+  background-color: #ff7755;
 }
 
-.nav>ul {
+.nav > ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -103,7 +102,7 @@
 }
 
 .article .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: black;
   text-align: center;
   height: 200px;
@@ -127,5 +126,5 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
